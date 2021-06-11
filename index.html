@@ -20,5 +20,31 @@
             </div>
         </header>
 
+    <!-- Recherche -->
+        <section>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
 
+            <div id="recherche">
+                <form method="post" action="traitement.php"></form>
+                    <p>
+                        <label for="pays"></label>
+					    <input type="text" name="pays" id="pays" placeholder="Ex : Marseille, France" maxlength="10" required>
+                    </p>
+                    <p>
+                        <input type="submit" value="Recherche" />
+                    </p>
+            </div>
+
+            <div>
+                <h2>Filtres</h2>
+                <ul>
+                    <li>Économique</li>
+                    <li>Familial</li>
+                    <li>Rmantique</li>
+                    <li>Animaux autorisés</li>
+                </ul>
+            </div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </section>
     </body>
