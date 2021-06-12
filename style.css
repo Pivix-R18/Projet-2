@@ -76,6 +76,14 @@ nav a:hover
     padding-top: 43px;
 }
 
+/* h1, p hébergement */             
+.center
+{
+    text-align: left;
+    margin-left: 20px;
+    padding-right: 30px;
+}
+
 /* Filter */
 #filter
 {
