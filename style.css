@@ -63,15 +63,15 @@ nav a
     color: black;
 }
 nav ul #inscription a{
-    color: #227afc;
+    color: #0065FC;
 }
 nav li:hover{
-    border-bottom: 3px solid #227afc;
+    border-bottom: 3px solid #0065FC;
     padding-bottom: 10px;
 }
 nav a:hover
 {
-    color: #227afc;
+    color: #0065FC;
    
     padding-top: 43px;
 }
@@ -83,6 +83,40 @@ nav a:hover
     margin-left: 20px;
     padding-right: 30px;
 }
+
+/* Recherche */
+#seach
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#marseillefrance
+{
+    border-top: solid;
+    border-bottom: solid;
+    border-width: thin;
+    border-right-style: none;
+    padding: 3.4%;
+    padding-right: 15%;
+    border-color: #ff0000; 
+}
+#gps
+{
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+}
+#each
+{
+    background-color: #0065FC;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+
 
 /* Filter */
 #filter
@@ -103,8 +137,8 @@ nav a:hover
     }
     nav a:hover
     {
-        color: #227afc;
-        border-top: 3px solid #227afc;
+        color: #0065FC;
+        border-top: 3px solid #0065FC;
         padding-top: 43px;
     }
 }

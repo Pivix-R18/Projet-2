@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a69b6ce933.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Reservia</title>
     </head>
@@ -15,7 +16,7 @@
                     <ul>
                         <li><a href="#">Hébergements</a></li>
                         <li><a href="#">Activités</a></li>
-                        <li id="inscription"><a href="#">S'incrire</a></li>
+                        <li id="inscription"><a href="#" id="gras">S'inscrire</a></li>
                     </ul>
                 </nav>
             </div>
@@ -23,20 +24,14 @@
 
     <!-- Recherche -->
         <section>
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-
-            <div id="recherche">
-                <form method="post" action="traitement.php"></form>
-                    <p>
-                        <label for="pays"></label>
-					    <input type="text" name="pays" id="pays" placeholder="Ex : Marseille, France" maxlength="10" required>
-                    </p>
-                    <p>
-                        <input type="submit" value="Recherche" />
-                    </p>
+            <h1 class="center">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="center">En plein centre ville ou en pleine nature</p>
+            <div id="seach">
+                <i id="gps" class="fas fa-map-marker-alt"></i>
+                <p id="marseillefrance"><strong>Marseille, France</strong></p>
+                <i id="each" class="fas fa-search"></i>
             </div>
-
+    <!-- Filter -->
             <div id="filter">
                 <h2>Filtres</h2>
                 <ul>
