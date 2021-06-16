@@ -206,7 +206,7 @@ nav a:hover
 {
     background-color: #F2F2F2;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .baseline
 {
@@ -222,6 +222,7 @@ nav a:hover
 {
     width: 120px;
     height: 120px;
+    object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
 #populaire_container
@@ -249,7 +250,6 @@ nav a:hover
     height: 125px;
     margin-bottom: 20px;
     min-width: 280px;
-    
 }
 .populaire_baseline
 {
@@ -277,7 +277,6 @@ nav a:hover
     height: 125px;
     margin-bottom: 20px;
     min-width: 280px;
-    
 }
 .star_gris
 {
@@ -297,7 +296,119 @@ nav a:hover
     height: 125px;
     margin-bottom: 20px;
     min-width: 280px;
-    
+}
+/* Hébergement à Marseille */
+.marseille_img
+{
+    width: 330px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+#marseille
+{
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Cannebière */
+#marseille li
+{
+    list-style-type: none;
+    margin-left: 15px;
+}
+a:link 
+{ 
+    text-decoration:none;
+}
+.color
+{
+    color: black;
+}
+.canne_top
+{
+    margin-top: 5px;
+}
+.hebergements_size
+{
+    font-size: 1.1em;
+}
+#cannebiere
+{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28); 
+    box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    width: 335px;
+    margin-bottom: 20px;
+}
+#port
+{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28); 
+    box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    width: 335px;
+    margin-bottom: 20px;
+}
+#mouettes
+{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28); 
+    box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    width: 335px;
+    margin-bottom: 20px;
+}
+#mer
+{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28); 
+    box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    width: 335px;
+    margin-bottom: 20px;
+}
+#panier
+{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28); 
+    box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    width: 335px;
+    margin-bottom: 20px;
+}
+#amina
+{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28); 
+    box-shadow: 1px 1px 10px 6px rgba(82,82,82,0.28);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    width: 335px;
+    margin-bottom: 20px;
+}
+#marseille p
+{
+    font-weight: bold;
+    font-size: 1.1em;
 }
 @media (min-width: 600px){
     body
