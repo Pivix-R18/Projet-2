@@ -250,6 +250,7 @@ nav a:hover
     height: 125px;
     margin-bottom: 20px;
     min-width: 280px;
+    max-width: 480px;
 }
 .populaire_baseline
 {
@@ -277,6 +278,7 @@ nav a:hover
     height: 125px;
     margin-bottom: 20px;
     min-width: 280px;
+    max-width: 480px;
 }
 .star_gris
 {
@@ -296,6 +298,7 @@ nav a:hover
     height: 125px;
     margin-bottom: 20px;
     min-width: 280px;
+    max-width: 480px;
 }
 /* Hébergement à Marseille */
 .marseille_img
