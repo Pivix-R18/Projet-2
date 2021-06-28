@@ -70,8 +70,6 @@ nav li.actif{
 nav li.actif a
 {
     color: #0065FC;
-   
-    padding-top: 43px;
 }
 /* h1, p hébergement */             
 .center
@@ -86,6 +84,7 @@ nav li.actif a
     padding-left: 15px;
     padding-right: 15px;
     max-width: 300px;
+    margin-top: 30px;
 }
 #search *
 {
@@ -97,7 +96,7 @@ nav li.actif a
     flex-grow: 2;
     padding-left: 15px;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 #search_input:focus{
     outline: none;
@@ -176,10 +175,19 @@ nav li.actif a
     margin-right: 5%;
     margin: -3px 10px -3px -3px;
 }
-#eco_baseline
+#eco_baseline ul
 {
     align-items: baseline;
     display: flex;
+}
+.text_filtres
+{
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+.ul_filtre
+{
+    margin-left: -40px;
 }
 .espace
 {
@@ -231,8 +239,7 @@ nav li.actif a
 }
 .populaire_img
 {
-    width: 120px;
-    height: 120px;
+    width: 130px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
@@ -276,11 +283,20 @@ nav li.actif a
     max-width: 480px;
     cursor: pointer;
 }
+.populaire_click
+{
+    display: flex;
+    color: black;
+}
 .star_gris
 {
     color: #F2F2F2;
 }
 /* Hébergement à Marseille */
+.ul_html
+{
+    margin-left: -40px;
+}
 .marseille_img
 {
     width: 330px;
@@ -389,45 +405,200 @@ body
     width : 100%;
     height: 100%;
 }
-
 /* Header */
+.height
+{
+    margin-left: 50px;
+}
 #nav_bar
 {
-    margin-top: 20px;
+    margin-top: -16px;
 }
 #nav_content img
 {
     width: 150px;
     height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#activites
+{
+    margin-top: 16px;
 }
 #nav_content
 {
     display: flex;
     flex-direction: row;
 }
-nav ul
+nav 
 {
-    list-style-type: none;
-    text-align: center;
+    /* list-style-type: none; */
+    /* text-align: center; */
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 50px;
+}
+nav ul{
+    display:flex;
+}
+nav ul li {
+    padding: 1rem;
 }
 nav ul #inscription{
-    position: absolute;
-    top: 1rem;
-    right: 5%;
-    
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 16px; 
 }
-nav a
-{
-    text-decoration: none;
-    color: black;
-}
-nav ul #inscription a{
-    color: #0065FC;
-}
-nav li:hover{
+nav li.actif{
     border-top: 3px solid #0065FC;
-    padding-top: 20px;
+    padding-top: 30px;
     border-bottom: none;
-
 }
+/* Recherche */
+#btn_search_text
+{
+    display: block;
+}
+.fa-search:before
+{
+    display: none;
+}
+/* Filtrer */
+#filter
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.eco
+{
+    display: flex;
+}
+.ul_filtre li
+{
+    float: left;
+}
+.argent
+{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.argent2
+{
+    margin-left: 15px;
+    cursor: pointer;
+}
+#wtf
+{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+/* Les plus populaires */
+#populaire
+{
+    border-radius: 15px;
+    margin-right: 100px;
+}
+.populaire_border
+{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.populaire_img
+{
+    width: 120px;
+    height: 140px;
+}
+/* bloc cote à cote */
+#test9
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 330px;
+    margin-bottom: 50px;
+}
+/* Hébergemnt à Marseille */
+#marseille
+{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-left: 0px;
+    width: 855px;
+}
+#marseille_activites
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.marseille_contenaire
+{
+    margin-right: 30px;
+    width: 250px;
+    -webkit-box-shadow: none
+}
+.marseille_img
+{
+    width: 245px;
+}
+/* Activés à Marseille */
+#active_flex
+{
+    display: flex;
+}
+#active_flex .grandz_img
+{
+    width: 330px;
+    height: 375px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.grandz
+{
+    width: 330px;
+    height: 430px;
+}
+.moyenz
+{
+    width: 330px;
+    height: 250px;
+}
+#active_flex .moyenz_img
+{
+    width: 330px;
+    height: 190px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.petitz
+{
+    width: 330px;
+    height: 160px;
+}
+#active_flex .petitz_img
+{
+    width: 330px;
+    height: 105px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.actives_contenaire
+{
+    margin-right: 40px;
+}
+/* Propos */
+#fin_container
+{
+    display: flex;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+.fin_bottom
+{
+    margin-right: 300px;
+}
+
 }
