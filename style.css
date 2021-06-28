@@ -490,6 +490,11 @@ nav li.actif{
     margin-left: 15px;
     cursor: pointer;
 }
+.ul_filtre
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 #wtf
 {
     margin-top: 0px;
@@ -500,6 +505,7 @@ nav li.actif{
 {
     border-radius: 15px;
     margin-right: 100px;
+    margin-bottom: 15px;
 }
 .populaire_border
 {
@@ -516,8 +522,10 @@ nav li.actif{
 {
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 330px;
     margin-bottom: 50px;
+    min-width: 1000px;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
 }
 /* Hébergemnt à Marseille */
 #marseille
@@ -527,12 +535,14 @@ nav li.actif{
     padding-left: 50px;
     padding-right: 20px;
     margin-left: 0px;
+    margin-bottom: 15px;
     width: 855px;
 }
 #marseille_activites
 {
     display: flex;
     flex-wrap: wrap;
+    
 }
 .marseille_contenaire
 {
@@ -544,10 +554,18 @@ nav li.actif{
 {
     width: 245px;
 }
+.test5
+{
+    min-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
 /* Activés à Marseille */
 #active_flex
 {
     display: flex;
+    min-height: 800px;
+    flex-wrap: wrap;
 }
 #active_flex .grandz_img
 {
@@ -594,11 +612,7 @@ nav li.actif{
 {
     display: flex;
     padding-bottom: 50px;
-    margin-left: 50px;
-}
-.fin_bottom
-{
-    margin-right: 300px;
+    justify-content: space-around;
 }
 
 }
