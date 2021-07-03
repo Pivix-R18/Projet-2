@@ -507,7 +507,8 @@
         border-radius: 15px;
         margin-right: 65px;
         margin-bottom: 15px;
-        max-width: 380px;
+        max-width: 680px;
+        min-width: 437px;
     }
     .populaire_border
     {
@@ -554,7 +555,7 @@
         display: flex;
         min-width: 700px;
         max-width: 1888px;
-        flex-wrap: wrap;
+        width: auto;
         justify-content: space-between;
     }
     #active_flex .grandz_img
@@ -603,11 +604,11 @@
         display: flex;
         padding-bottom: 50px;
         justify-content: space-around;
-        max-width: 1888px;
     }
-
-}
-@media (min-width: 1100px){
+    footer
+    {
+        min-width: 1662px;
+    }
     #hebergements
     {
         display: flex;
@@ -615,6 +616,7 @@
         margin-bottom: 50px;
         max-width: 1888px;
         width: 100%;
-        justify-content: space-between;
-    }  
+        justify-content: flex-end;
+    } 
+
 }
