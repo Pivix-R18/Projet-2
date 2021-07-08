@@ -70,10 +70,12 @@
     nav li.actif a:hover
     {
         color: #0065FC;
+    }
+    nav li.actifs:hover
+    {
         border-bottom: 3px solid #0065FC;
         padding-bottom: 10px;
-        padding-right: 50px;
-        padding-left: 50px;
+        color: #0065FC;
     }
     /* h1, p hébergement */             
     .center
@@ -413,7 +415,7 @@
     /* Header */
     .margin-left
     {
-        margin-left: 5%;
+        margin-left: 40px;
     }
     #nav_bar
     {
@@ -454,15 +456,13 @@
         padding-top: 30px;
         border-bottom: none;
     }
-    nav li.actifs a:hover
+    nav li.actifs:hover
     {
         color: #0065FC;
         border-bottom: none;
         border-top: 3px solid #0065FC;
         padding-top: 29px;
         padding-bottom: 0px;
-        padding-right: 0px;
-        padding-left: 0px;
     }
     /* Recherche */
     #btn_search_text
