@@ -413,7 +413,7 @@
     /* Header */
     .margin-left
     {
-        margin-left: 50px;
+        margin-left: 5%;
     }
     #nav_bar
     {
@@ -515,7 +515,8 @@
         margin-right: 65px;
         margin-bottom: 15px;
         max-width: 680px;
-        min-width: 437px;
+        min-width: 340px;
+        max-height: 630px;
     }
     .populaire_border
     {
@@ -534,11 +535,12 @@
     {
         background-color: #F2F2F2;
         border-radius: 15px;
-        padding-left: 50px;
+        padding-left: 5%;
         padding-right: 20px;
         margin-left: 0px;
         margin-bottom: 15px;
-        width: 855px;
+        width: 80%;
+        max-width: 1050px;
     }
     #marseille_activites
     {
@@ -560,17 +562,19 @@
     #active_flex
     {
         display: flex;
+        flex-wrap: wrap;
         min-width: 700px;
         max-width: 1888px;
-        width: auto;
+        width: 100%;
         justify-content: space-between;
     }
     #active_flex .grandz_img
     {
-        width: 330px;
         height: 375px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
+        width: 100%;
+        min-width: 265px;
     }
     .grandz
     {
@@ -584,7 +588,7 @@
     }
     #active_flex .moyenz_img
     {
-        width: 330px;
+        width: 100%;
         height: 190px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
@@ -596,7 +600,7 @@
     }
     #active_flex .petitz_img
     {
-        width: 330px;
+        width: 100%;
         height: 105px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
@@ -611,10 +615,7 @@
         display: flex;
         padding-bottom: 50px;
         justify-content: space-around;
-    }
-    footer
-    {
-        min-width: 1662px;
+        width: 100%;
     }
     #hebergements
     {
