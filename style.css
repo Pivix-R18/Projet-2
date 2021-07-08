@@ -64,12 +64,16 @@
         color: #0065FC;
     }
     nav li.actif{
-        border-bottom: 3px solid #0065FC;
+        border-bottom: 3px solid #F2F2F2;
         padding-bottom: 10px;
     }
-    nav li.actif a
+    nav li.actif a:hover
     {
         color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 10px;
+        padding-right: 50px;
+        padding-left: 50px;
     }
     /* h1, p hébergement */             
     .center
@@ -422,10 +426,6 @@
         margin-top: 30px;
         margin-left: 50px;
     }
-    #activites
-    {
-        margin-top: 16px;
-    }
     #nav_content
     {
         display: flex;
@@ -433,8 +433,6 @@
     }
     nav 
     {
-        /* list-style-type: none; */
-        /* text-align: center; */
         display:flex;
         justify-content: flex-end;
         width: 100%;
@@ -453,9 +451,18 @@
         margin-top: 16px; 
     }
     nav li.actif{
-        border-top: 3px solid #0065FC;
         padding-top: 30px;
         border-bottom: none;
+    }
+    nav li.actifs a:hover
+    {
+        color: #0065FC;
+        border-bottom: none;
+        border-top: 3px solid #0065FC;
+        padding-top: 29px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     /* Recherche */
     #btn_search_text
