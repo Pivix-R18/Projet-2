@@ -399,7 +399,7 @@
     }
 
 
-@media (min-width: 600px)
+@media (min-width: 745px)
 {
     body
     {
@@ -626,5 +626,4 @@
         width: 100%;
         justify-content: flex-end;
     } 
-
 }
